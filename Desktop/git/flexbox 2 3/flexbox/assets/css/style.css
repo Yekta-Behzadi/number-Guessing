@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+nav{
+    width: 100%;
+    background: #3d626c;
+    padding: 1.5rem;
+    position: absolute;
+}
+nav .container{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+margin: 0 auto;
+}
+nav .container > a{
+    font-family: 'EB Garamond', serif;
+    line-height: 1.2;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+nav .container > a:hover{
+    color: #b3b3b3;
+}
+nav .container ul{
+    display: flex;
+    list-style: none;
+}
+nav .container ul li{
+    padding: 0 1rem;
+}
+nav .container ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+nav .container ul li a:hover{
+    color: #b3b3b3;
+    border-bottom: 1px solid white;
+    padding-bottom: 7px;
+}
+nav .container ul li:last-child a{
+font-family:  'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 500;
+    border: 2px white solid;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+/* HEADER */
+header{
+width: 100%;
+height: 100vh;
+background: linear-gradient(rgba(61,98,108,0.7),rgba(61,98,108,0.7)), url(
+    ../img/background2.jpg
+) no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+}
+header .container{
+    width: 85%;
+    margin: 0 auto;
+}
+header .container h1{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 4rem;
+}
+header p{
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+    font-family: 'EB Garamond', serif;
+    width: 48%;
+    padding: 20px 0;
+
+}
+header .container a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    font-family: 'EB Garamond', serif;
+    font-size:1.5rem;
+    font-weight:600;
+    line-height:1.6;
+    padding:15px 45px;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+/* SECTION */
+section{
+    width: 100%;
+}
+section#boxes .container{
+    margin: 0 auto;
+    width: 98%;
+    display: flex;
+    
+}
+section .container .group{  
+  flex: 1;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+section .container .group h3{
+    line-height: 1.5;
+    font-size: 2.2rem;
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+    color: #3d626c;
+    padding: 50px 20px;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+
+section .container .group p{
+    color:rgb(61, 98, 108);
+font-family:"Open Sans", sans-serif;
+font-size:1.2rem;
+font-weight:400;
+line-height:1.5;
+padding: 8px 20px;
+}
+section .container .bg-green{
+   background:  #d7edd8;
+}
+section .container .bg-per{
+    background: #fff3f3;
+}
+section .container .bg-blu{
+    background: #eaf4f8;
+}
+section .container .group a{
+    color: #3d626c;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.7;
+display:block;
+padding:80px 20px;
+font-family:"Open Sans", sans-serif;
+text-transform:uppercase;
+}
+section .container .group a:hover{
+    text-decoration: none;
+}
+/* NEW WAY */
+section.new-way .container{
+    width: 100%;
+   /* margin: 50px 240px; */
+   
+}
+section.new-way .container .row{
+    display: flex; 
+    width: 70%;
+    margin: 50px auto;
+}
+section.new-way .container .row h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 3.2rem;
+    line-height: 1;
+    margin-bottom: .75rem;
+    font-weight: 300;
+    color: #3d626c;
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+    
+}
+section.new-way .container .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #879a9f;
+    width: 50%;
+}
+section .link{
+    display: inline-block;
+    margin-left:730px;
+}
+section.new-way .link > a{
+    color: #3d626c;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.7;
+display: inline-block;
+font-family:"Open Sans", sans-serif;
+text-transform:uppercase;
+/* margin: 70px 20px */
+}
+section.new-way .link a:hover{
+    text-decoration: none;
+}
+
+
+/* MAKE YOUR STYLE TODAY */
+section#make-style{   
+     width: 100%;
+     background: #fff3f3;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+}
+section#make-style .container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+section#make-style .container h2{ 
+    font-family: 'EB Garamond', serif;
+    font-size: 3.2rem;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #3d626c;
+}
+section#make-style .container .top-row{
+    display: flex;
+    width:100%; 
+}
+section#make-style .container .top-row .big-section{
+    flex-basis: 65%;
+    padding: 2rem;
+    min-height: 400 px;
+}
+section#make-style .container .top-row .small-section{
+    flex-basis: 35%;
+    padding: 2rem;
+}
+section#make-style .container .top-row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+section#make-style .container h3{
+    font-size: 1.8rem;
+    color: #3d626c;
+    line-height: 1.3;
+    font-weight: 1.3;
+    font-family: 'EB Garamond', serif;
+}
+section#make-style .container span{
+    color: #879a9f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 500;
+}
+section#make-style .container .bottom-row{
+    display: flex;
+    width:100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ }
+
+section#make-style .container .bottom-row .big-section{
+        flex-basis: 65%;
+        padding: 2rem;
+        min-height: 400 px;
+    }
+    section#make-style .container .bottom-row .small-section{
+        flex-basis: 35%;
+        padding: 2rem;
+    }
+    section#make-style .container .bottom-row img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+section#make-style .brand-history h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 3.2rem;
+    line-height: 1;
+    color: #3d626c;
+    padding-bottom: 50px;
+    text-align: left;
+    padding: 40px 20px;
+}
+section#make-style .brand-history .brand-p{
+    display: flex;
+}
+section#make-style .brand-history .brand-p p{
+    color: #767676;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+/* NEW WAY */
+#new-way{
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+#new-way .creat-design{
+    width: 50%;
+    background:linear-gradient(rgba(61,98,108,0.3),rgba(61,98,108,0.3)), url(
+        ../img/img-3.jpg) no-repeat;
+        background-size: contain;
+    
+}
+#new-way .creat-design h4{
+    color: #fff3f3;
+    font-family: 'EB Garamond', serif;
+    font-size: 4.2rem;
+    text-align: center;
+    width: 70%;
+    margin-top:190px;
+    margin-left: 70px;
+}
+#new-way .unique-style{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#new-way .uni-style-1 img{
+    width:360px;
+    height: 410px;
+}
+#new-way .uni-style-2{
+    width:50%;
+    height: 410px;
+    background: #d7edd8;
+    text-align: left;
+}
+#new-way .uni-style-2 h1{
+    font-family: 'EB Garamond', serif;
+    width: 10px;
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #3d626c; 
+    padding-top: 50px;
+    padding-left: 60px;
+}
+#new-way .uni-style-2 a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #3d626c; 
+    display: block;
+    padding: 50px 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left
+}
+#new-way .uni-style-2 .underline{
+    display:block;
+    border: solid #3d626c 1px;
+    width: 65px;
+    margin-top:-48px;
+    margin-left: 69px;
+}
+#new-way .uni-style-2 a :hover .underline{
+    display: none;
+}
+#new-way .uni-style-3{
+    width:50%;
+    height: 410px;
+    background:#f6f6f6;
+    margin-top: -4px;
+    /* text-align: center;
+    align-items: center; */
+}
+#new-way .uni-style-3 p{
+    color: #3d626c;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    font-weight: 500;
+    width: 65%;
+    margin: 20% 20.5%;
+}
+#new-way .uni-style-4 img{
+    width:360px;
+    height: 410px;
+    margin-top: -4px;
+}
+/* MakeStyle */
+
+#make-styleee{
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    background:#fff;
+}
+.left-section{
+   flex:1;
+   background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/assets/img/img-3.jpg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.left-section h2{
+    font-size:60px;
+    font-weight: 700;
+    color:white;
+    padding:0 100px;
+}
+.right-section{
+   flex:1;
+     display: flex;
+    flex-wrap: wrap; 
+}
+.inner-section{
+    flex-basis: 50%;
+}
+.inner-section img{
+    object-fit: cover;
+}
+.inner-section:nth-child(2){
+    background:#d7edd8;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.inner-section:nth-child(2) h3{
+    flex-basis: 100%;
+}
+.inner-section:nth-child(2) a{
+  display: inline-block;
+  
+  margin-left:40px;
+  margin-top:1.2rem;
+  font-family: "Open Sans , sans-serif";
+  font-size:1.3rem;
+  line-height: 1.7;
+  color:#3d626c;
+  border-bottom: 2px solid #3d626c;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+.inner-section:nth-child(2) a:hover{
+    border:0 solid #3d626c;
+}
+.inner-section:nth-child(2) h3{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size:3.2rem;
+    color:#3d626c;
+    line-height: 1.2
+}
+.inner-section:nth-child(3){
+    padding:20px;
+    font-size: 1.8rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.3;
+    font-weight: 500;
+    color:#3d626c;
+    display: flex;
+    align-items: center;
+}
